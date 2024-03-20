@@ -61,3 +61,10 @@ getgenv().ForceUseSilentAim = false --Force turn on silent aim , if error then e
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Hoho Hub (Server Hopping, ect)",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+   end,
+})
